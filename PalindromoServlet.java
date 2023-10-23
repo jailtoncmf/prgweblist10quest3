@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet("/PalindromeServlet")
-public class PalindromeServlet extends HttpServlet {
+@WebServlet("/PalindromoServlet")
+public class PalindromoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String word = request.getParameter("word");
