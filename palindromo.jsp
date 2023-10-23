@@ -3,10 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Verificador de Palíndromos</title>
+    <title>Verificador de PalÃ­ndromos</title>
 </head>
 <body>
-    <form action="PalindromeServlet" method="post">
+    <form action="PalindromoServlet" method="post">
         <label for="word">Digite uma palavra ou frase:</label>
         <input type="text" id="word" name="word" required>
         <button type="submit">Verificar</button>
